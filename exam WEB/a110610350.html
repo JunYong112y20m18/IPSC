@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IPSC</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <style>
+        #intro_bg{
+            justify-content:center;
+            height:400px;
+            width:100%
+        }
+
+        footer {
+            text-align: center;
+            padding: 3px;
+            background-color: DarkSalmon;
+            color: white;
+        }
+
+        </style>
+
+    
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light" style="background-color:#bbb;color: aliceblue;">
+        <div class="container">
+            <a class="navbar-brand" href="a110610350.html"><img src="image/LOGO.jpg" alt="LOGO" width="30" height="24" class="d-inline-block align-text-top">IPSC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="a110610350.html">主頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">介紹</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            隊伍連結
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="https://zh-tw.facebook.com/IPSCTAIWAN/">TPSA</a></li>
+                            <li><a class="dropdown-item" href="https://www.facebook.com/TFAS.ActionAir.IPSC.Taipei/">TFSA</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.ipsc.org/">IPSC</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">往下閱讀</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">搜尋</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+    
+
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+
+            <!--carousel 1 -->
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="image/浮動圖片1.jpg" id="intro_bg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>IPSC手槍</h5>
+                    <p>IPSC最常見氣槍</p>
+                </div>
+            </div>
+
+            <!--carousel 2 -->
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="image/浮動圖片2.jfif" id="intro_bg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>手槍比賽</h5>
+                    <p>通常是最多人參加的</p>
+                </div>
+            </div>
+
+            <!--carousel 3 -->
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="image/浮動圖片三.jpg" id="intro_bg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>長槍比賽</h5>
+                    <p>喜歡長槍的會參加</p>
+                </div>
+            </div>
+
+
+            <!--carousel 4 -->
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="image/浮動圖片4.jpg" id="intro_bg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>TFSA</h5>
+                    <p>是台北的一個IPSC隊伍</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- nav-tabs -->
+
+
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">介紹影片</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">裝備介紹</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">其他介紹</button>
+        </div>
+    </nav>
+
+
+    <div class="tab-content" id="nav-tabContent">
+
+        <!-- tab content1 -->
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+            <div class=" col-md-12  text-center">
+
+                <!--<video width="540" height="360" controls>
+                    <source src="video/SweetVedio.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>-->
+                <iframe width="1000" height="500" src="https://www.youtube.com/embed/bnsEvJXMmao" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+        </div>
+
+        <!-- tab  content2 -->
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+            <!--card 1-->
+            <div class="row text-center">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="image/gunimg.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">槍</h5>
+                                <p class="card-text">
+                                    在台灣通常以氣槍為主，槍有分為手槍以及長槍，通常手槍的參加人數為最多
+                                    根據不同的組別可以有不同層度的改裝，槍可以展現出一個射手的特色。
+                                </p>
+                                <p class="card-text"><small class="text-muted">可以至TFSA購買、改裝</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--card 2-->
+            <div class="row text-center">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="image/快拔槍套.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">快拔槍套</h5>
+                                <p class="card-text">真槍品牌大概有CR SPEED 、Double Alpha(DAA)、GHOST、Guga Ribas(GR)、JR、沙法利蘭，因為好用所以相關復刻品也都有跟風上去。</p>
+                                <p class="card-text"><small class="text-muted">各大品牌皆可以購買</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--card .3-->
+            <div class="row text-center">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="image/彈匣.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">彈匣</h5>
+                                <p class="card-text">用來填裝子彈的部件，可以額外改裝增強上彈匣速度以及耐用度</p>
+                                <p class="card-text"><small class="text-muted">可以至TFSA購買、改裝</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--4-->
+            <div class="row text-center">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="image/彈匣套.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">彈匣套</h5>
+                                <p class="card-text">常見品牌有GHOST、DAA、SAFARILAND、CRSPEED</p>
+                                <p class="card-text"><small class="text-muted">至各大品牌購買</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--5-->
+            <div class="row text-center">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="image/腰帶.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">腰帶(內腰帶)</h5>
+                                <p class="card-text">用來固定所有配件的部件，這部份較簡單就選1000元以下的內外腰帶即可。</p>
+                                <p class="card-text"><small class="text-muted">可以至TFAS購買</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--6-->
+            <div class="row text-center">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="image/護目鏡.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">護目鏡</h5>
+                                <p class="card-text">是非常重要的配備之一，用來保護眼睛，若沒有配戴護目鏡，是不能進靶場的</p>
+                                <p class="card-text"><small class="text-muted">選購有安全標章的護目鏡</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!-- tab content3 -->
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <h3>用槍四大守則 </h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body" style="text-align: center;">
+                            槍口永遠要指向安全的方向Always keep the gun pointed at the safe direction. <br>
+                            永遠假設腔內已有子彈上膛Always assume the gun is loaded. <br>
+                            除在真正射擊時，手指不可接觸板機Always keep your finger off the trigger until ready to shoot. <br>
+                            射擊時先確定目標所在即其後方物品有無安全顧慮Always know your target and what’s beyond it. <br><br>
+                            <h4>標準站姿如下</h4>
+                            <img src="image/標準站姿.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <h3>計分規則</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            IPSC比賽計分規則簡述
+                            紙靶計分區分為A，C，D三區；每個紙靶最少射擊2槍，根據火力及口徑不同，分為小火力（minor）和大火力（major）。
+                            使用小火力彈藥，射中A、C、D相應區域分數分別為5分，3分和1分；使用大火力彈藥分數則分別為5分，4分和2分。
+                            金屬靶分為可倒式固體靶和圓/方形碟靶，每個金屬靶最少射擊1槍，擊倒得5分。
+                            <img src="image/靶紙.jpg" alt="" style="width: 50%; margin-left: 25%;">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            <h3>場地圖片</h3>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample" style="margin-left: 25%;">
+                        <div class="accordion-body">
+
+                            <div class="row text-center">
+                                <div class="card mb-3" style="max-width: 800px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <img src="image/場地1.jpg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h5 class="card-title">室內場地</h5>
+                                                <p class="card-text"></p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row text-center">
+                                <div class="card mb-3" style="max-width: 800px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <img src="image/場地2.jpg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h5 class="card-title">室外場地</h5>
+                                                <p class="card-text"></p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row text-center">
+                                <div class="card mb-3" style="max-width: 800px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <img src="image/場地3.jpg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h5 class="card-title">室外場地</h5>
+                                                <p class="card-text"></p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row text-center">
+                                <div class="card mb-3" style="max-width: 800px;">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <img src="image/場地4.jpg" class="img-fluid rounded-start" alt="...">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="card-body">
+                                                <h5 class="card-title">室外場地</h5>
+                                                <p class="card-text"></p>
+                                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <hr />
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12 col-md-6">
+
+                <h2>組別規格</h2>
+                <p>不同的組別有不同的比賽規則</p>
+                <input class="form-control" id="myInput" type="text" placeholder="Search..">
+                <br>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>組別名稱</th>
+                            <th>彈匣發數</th>
+                            <th>規則</th>
+                        </tr>
+                    </thead>
+                    <tbody id="myTable">
+                        <tr>
+                            <td>Open</td>
+                            <td>28</td>
+                            <td>無限改裝，不能裝雷射指標器</td>
+                        </tr>
+                        <tr>
+                            <td>Standard</td>
+                            <td>18</td>
+                            <td>標準組 – Marui Hi-Capa為主流，限制：不能裝光學瞄具，不能裝槍口抑制器。</td>
+                        </tr>
+                        <tr>
+                            <td>Production</td>
+                            <td>15</td>
+                            <td>原廠組，雙動板機(不能做槍枝的任意變動)</td>
+                        </tr>
+                        <tr>
+                            <td>Classic 1911</td>
+                            <td>10</td>
+                            <td>單排彈組</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p>從上面搜尋欄搜尋你想要的組別</p>
+
+                <script>
+                    $(document).ready(function () {
+                        $("#myInput").on("keyup", function () {
+                            var value = $(this).val().toLowerCase();
+                            $("#myTable tr").filter(function () {
+                                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                            });
+                        });
+                    });
+                </script>
+
+            </div>
+
+            <div class="col-12 col-md-6">
+
+                <h2>Filterable Table</h2>
+                <p>Type something in the input field to search the table for first names, last names or emails:</p>
+                <input class="form-control" id="myInput2" type="text" placeholder="Search..">
+
+
+                <ul class="list-group list-group-flush" id="Mylist">
+                    <li class="list-group-item">First item</li>
+                    <li class="list-group-item">Second item</li>
+                    <li class="list-group-item">Third item</li>
+                    <li class="list-group-item">Fourth item</li>
+                </ul>
+
+                <script>
+                    $(document).ready(function () {
+                        $("#myInput2").on("keyup", function () {
+                            var value = $(this).val().toLowerCase();
+                            $("#Mylist li").filter(function () {
+                                $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                            });
+                        });
+                    });
+                </script>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!--footer-->
+    <hr />
+    <footer>
+        <p>
+            Author: Hege Refsnes<br>
+            <a href="mailto:hege@example.com">hege@example.com</a>
+        </p>
+    </footer>
+
+</body>
+</html>
